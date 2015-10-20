@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/python
+FROM registry.hub.docker.com/_/python/
 
 # Install Node.js
 RUN \
